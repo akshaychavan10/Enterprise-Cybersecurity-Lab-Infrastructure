@@ -1,9 +1,4 @@
----
-name: Enterprise Cybersecurity Lab Infrastructure
-tools: [VirtualBox, Windows Server 2025, Active Directory, Wazuh SIEM/XDR, Security Onion, Postfix MTA, Kali Linux, Ubuntu Desktop]
-image: /assets/projects/enterprise_lab.png
-description: An end-to-end virtual lab featuring Active Directory (WS2025), Wazuh monitoring, and a Kali Linux attack vector for enterprise-level cybersecurity and network administration training. 
----
+
 # Enterprise Cybersecurity Lab Infrastructure
 
 
