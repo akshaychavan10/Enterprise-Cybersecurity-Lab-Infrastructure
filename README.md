@@ -1,4 +1,3 @@
-
 # Enterprise Cybersecurity Lab Infrastructure
 
 
@@ -76,9 +75,9 @@ This project demonstrates my ability to design, implement, and secure complex ne
 
 ### Screenshots
 
-##### Network Topology
+##### Infrastructure Setup
 
-![Network Topology](/assets/ent_network_topology.png)
+![Infrastructure Setup](/assets/Ent_Infra.png)
 
 ##### Active Directory Setup
 
@@ -90,29 +89,30 @@ This project demonstrates my ability to design, implement, and secure complex ne
 
 As part of this project, I documented the setup and configuration process in detail through comprehensive blog posts. These posts are available for reference below:
 
-1. **A Primer On Provisioning Virtual Machines with VirtualBox:** Step-by-step guide to setting up virtual machines for the project.
+1. **[Foundations of Virtualization: Architecting an Isolated Network with VirtualBox](https://www.google.com)**
+Step-by-step guide to setting up virtual machines for the project.
 
-2. **Build a Directory Service Server With Active Directory:** Detailed instructions for deploying and configuring Active Directory.
+2. **The Domain Core: Deploying Windows Server 2025 and Active Directory Services** Detailed instructions for deploying and configuring Active Directory.
 
-3. **Provision & Setup Windows 11 Enterprise:** Configuring a simulated business user environment.
+3. **Building the Modern Workplace: Provisioning Windows 11 Enterprise Clients** Configuring a simulated business user environment.
 
-4. **Provision & Setup Ubuntu Desktop 22.04:** Setting up a software development environment.
+4. **Cross-Platform Identity: Integrating Ubuntu Desktops with Active Directory** Setting up a software development environment.
 
-5. **Provision & Setup Ubuntu Server 22.04:** Configuring the email server.
+5. **The Linux Backbone: Deploying Ubuntu Server 22.04 for Enterprise Roles** Configuring the email server.
 
-6. **Setup Postfix Mail Transfer Agent:** Securing an SMTP relay server on Ubuntu Server.
+6. **Routing Communication: Configuring a Postfix Mail Transfer Agent (MTA)** Securing an SMTP relay server on Ubuntu Server.
 
-7. **Provision & Setup Security Onion:** Implementing network security monitoring.
+7. **Watching the Wire: Implementing Network Security Monitoring with Security Onion** Implementing network security monitoring.
 
-8. **Security Server - Provision & Setup Ubuntu Desktop 22.04:** Configuring the security monitoring environment.
+8. **The SOC Command Center: Engineering a Dedicated Security Hosting Environment** Configuring the security monitoring environment.
 
-9. **Setup Wazuh:** Integrating Wazuh for intrusion detection.
+9. **Enterprise Visibility: Deploying Wazuh SIEM/XDR for Endpoint Monitoring** Integrating Wazuh for intrusion detection.
 
-10. **Configure a Vulnerable Environment:** Preparing the network for penetration testing.
+10. **Engineering the Target: Hardening and Weakening the Lab for Realistic Testing** Preparing the network for penetration testing.
 
-11. **Setup The Attacker Machine:** Configuring Kali Linux for ethical hacking.
+11. **The Offensive Platform: Setting Up Kali Linux for Ethical Hacking Operations** Configuring Kali Linux for ethical hacking.
 
-12. **Cyber Attack - Initial Access To Breached:** Simulating and analyzing cyber attacks.
+12. **Red Team Operations: Simulating the Breach from Initial Access to Impact** Simulating and analyzing cyber attacks.
 
 ---
 
