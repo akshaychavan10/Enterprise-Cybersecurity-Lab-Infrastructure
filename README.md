@@ -78,11 +78,11 @@ This project demonstrates my ability to design, implement, and secure complex ne
 
 ##### Network Topology
 
-![Network Topology](/assets/projects/ent_network_topology.png)
+![Network Topology](/assets/ent_network_topology.png)
 
 ##### Active Directory Setup
 
-![Active Directory](/assets/projects/ent_active_dir_setup.png)
+![Active Directory](/assets/ent_active_dir_setup.png)
 
 ---
 
