@@ -85,34 +85,35 @@ This project demonstrates my ability to design, implement, and secure complex ne
 
 ---
 
-### Blog Post Guides
 
-As part of this project, I documented the setup and configuration process in detail through comprehensive blog posts. These posts are available for reference below:
+### Red Team Operations
 
-1. **[Foundations of Virtualization: Architecting an Isolated Network with VirtualBox](https://www.google.com)**
-Step-by-step guide to setting up virtual machines for the project.
+Simulated offensive attacks using **Kali Linux** to test network defenses:
 
-2. **The Domain Core: Deploying Windows Server 2025 and Active Directory Services** Detailed instructions for deploying and configuring Active Directory.
+* **Initial Access & Reconnaissance:** Performed brute-force and dictionary attacks with **Hydra**, mapped Active Directory (`corp.project-x-dc.com`) to identify high-value targets like the Domain Controller.
+* **Exploitation & Lateral Movement:** Used **Evil-WinRM** and **NetExec** to execute commands, extract data, and move laterally.
+* **Targeting Services:** Tested critical infrastructure such as the **Postfix Mail Server** for vulnerabilities and potential credential exploitation.
 
-3. **Building the Modern Workplace: Provisioning Windows 11 Enterprise Clients** Configuring a simulated business user environment.
+<iframe
+  src="https://mitre-attack.github.io/attack-navigator/#layerURL=https://raw.githubusercontent.com/akshaychavan10/shopify_notes/refs/heads/main/red_team_attack_simulation.json"
+  width="100%"
+  height="800"
+  style="border:1px solid #ddd;">
+</iframe>
 
-4. **Cross-Platform Identity: Integrating Ubuntu Desktops with Active Directory** Setting up a software development environment.
+---
 
-5. **The Linux Backbone: Deploying Ubuntu Server 22.04 for Enterprise Roles** Configuring the email server.
+### Blue Team Operations
 
-6. **Routing Communication: Configuring a Postfix Mail Transfer Agent (MTA)** Securing an SMTP relay server on Ubuntu Server.
+Defensive monitoring and response using a layered security stack:
 
-7. **Watching the Wire: Implementing Network Security Monitoring with Security Onion** Implementing network security monitoring.
+* **Endpoint Security:** **Wazuh** agents collected logs from Windows and Linux hosts, with File Integrity Monitoring (FIM) and behavioral analysis for real-time alerts.
 
-8. **The SOC Command Center: Engineering a Dedicated Security Hosting Environment** Configuring the security monitoring environment.
+* **Network Monitoring:** **Security Onion** with **Zeek** and **Suricata** analyzed traffic for anomalies. Logs aggregated in the **Elastic Stack** enabled proactive threat hunting.
 
-9. **Enterprise Visibility: Deploying Wazuh SIEM/XDR for Endpoint Monitoring** Integrating Wazuh for intrusion detection.
+* **Isolation & Management:** Security tools were hosted on a dedicated server to protect performance and maintain separation from production systems.
 
-10. **Engineering the Target: Hardening and Weakening the Lab for Realistic Testing** Preparing the network for penetration testing.
-
-11. **The Offensive Platform: Setting Up Kali Linux for Ethical Hacking Operations** Configuring Kali Linux for ethical hacking.
-
-12. **Red Team Operations: Simulating the Breach from Initial Access to Impact** Simulating and analyzing cyber attacks.
+![endpoint configuration](/assets/wazuh_blue.png)
 
 ---
 
