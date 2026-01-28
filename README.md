@@ -94,12 +94,8 @@ Simulated offensive attacks using **Kali Linux** to test network defenses:
 * **Exploitation & Lateral Movement:** Used **Evil-WinRM** and **NetExec** to execute commands, extract data, and move laterally.
 * **Targeting Services:** Tested critical infrastructure such as the **Postfix Mail Server** for vulnerabilities and potential credential exploitation.
 
-<iframe
-  src="https://mitre-attack.github.io/attack-navigator/#layerURL=https://raw.githubusercontent.com/akshaychavan10/shopify_notes/refs/heads/main/red_team_attack_simulation.json"
-  width="100%"
-  height="800"
-  style="border:1px solid #ddd;">
-</iframe>
+> https://mitre-attack.github.io/attack-navigator/#layerURL=https://raw.githubusercontent.com/akshaychavan10/shopify_notes/refs/heads/main/red_team_attack_simulation.json"
+
 
 ---
 
